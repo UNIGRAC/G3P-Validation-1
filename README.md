@@ -10,7 +10,9 @@ For that purpose, 4 jupyter notebooks are going to be used in a certain order
  This notebook is used first to calculate in-situ GWSA or GWLA. The input data is:
   - WATERLEVEL_demo: In-situ groundwater level time series (depth to groundwater in m) in the format: SiteNo / date / waterlevel
   - all_coordinates_demo: List of available sites where groundwater levels were measured, their name, coordinates (lon,lat), and if available whether they are in a confined or unconfonied situation.
-  Every step is specified in the notebook. Both of the notebooks have an intermediate step to be carried out in QGIS, and detailed in the documents: "qgis_GWSA_demo.doc" and "qgis_GWSA_demo.doc". The outcome is either in-situ GWSA or GWLA, in the form of:
+  Every step is specified in the notebook. Both of the notebooks have an intermediate step to be carried out in QGIS, and detailed in the documents: "qgis_GWSA_demo.doc" and "qgis_GWSA_demo.doc". 
+  
+  The output is either in-situ GWSA or GWLA, in the form of:
    - "longdf_alldata_2002_2016_demo.xlsx" for in-situ GWSA
    - "longdf_alldata_2002_2016_GWLA_demo.xlsx" for in-situ GWLA
  
